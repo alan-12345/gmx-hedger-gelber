@@ -1,0 +1,14 @@
+node_modules
+
+.DS_store
+.env
+
+# logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# replit
+.replit
+replit.nix
+.upm

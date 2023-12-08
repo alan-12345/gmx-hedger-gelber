@@ -1,0 +1,32 @@
+{
+	"name": "gmx-hedger",
+	"version": "1.0.0",
+	"description": "Hedges GLP position by shorting basket on Binance",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/alan-12345/gmx-hedger.git"
+	},
+	"author": "Alan",
+	"bugs": {
+		"url": "https://github.com/alan-12345/gmx-hedger/issues"
+	},
+	"homepage": "https://github.com/alan-12345/gmx-hedger#readme",
+	"dependencies": {
+		"@0xsequence/multicall": "^0.43.5",
+		"axios": "^1.2.0",
+		"canvas": "^2.10.2",
+		"chart.js": "^3.9.1",
+		"chartjs-adapter-moment": "^1.0.1",
+		"chartjs-node-canvas": "^4.1.6",
+		"csv-write-stream": "^2.0.0",
+		"dotenv": "^16.0.3",
+		"ethers": "^5.7.2",
+		"lodash": "^4.17.21",
+		"moment": "^2.29.4",
+		"node-telegram-bot-api": "^0.60.0"
+	}
+}
